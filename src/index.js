@@ -10,3 +10,15 @@
 //https://l1pp6.csb.app/
 
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
+
+import React from "react"
+import ReactDOM from "react-dom"
+import App from "./App"
+
+const currentDate = new Date();
+const year = currentDate.getFullYear();
+ReactDOM.render(
+  <div>
+    <Header />
+    <Footer />
+  </div>, document.getElementById("root"));
