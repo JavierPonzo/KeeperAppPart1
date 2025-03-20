@@ -15,10 +15,8 @@ import React from "react"
 import ReactDOM from "react-dom"
 import App from "./App"
 
-const currentDate = new Date();
-const year = currentDate.getFullYear();
+
 ReactDOM.render(
   <div>
-    <Header />
-    <Footer />
+    <App />
   </div>, document.getElementById("root"));

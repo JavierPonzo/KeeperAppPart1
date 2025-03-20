@@ -1,7 +1,10 @@
 import React from "react";
 
-<footer>
-  <p> Copyright {year}</p>
-</footer>
+function Footer(){
+const currentDate = new Date();
 
+return (
+  <p> Copyright {currentDate}</p>
+  )
+}
 export default Footer;
