@@ -3,6 +3,6 @@ import React from "react";
 function Footer() {
   const currentDate = new Date().getFullYear();
 
-  return <p> Copyright {currentDate}</p>;
+  return <footer> Copyright {currentDate}</footer>;
 }
 export default Footer;
